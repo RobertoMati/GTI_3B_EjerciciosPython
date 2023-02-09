@@ -12,7 +12,7 @@ for i in range(len(lista)):
     lista2.append(lista[i])
 
 #Rota los elementos de la lista
-lista2.insert(0, lista2.pop())
+lista2.reverse()
 
 print("La lista original es: ", lista)
 print("La lista rotada es: ", lista2)
