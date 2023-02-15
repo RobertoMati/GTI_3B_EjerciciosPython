@@ -5,5 +5,5 @@ def generado(fichero):
         fichero = f.read()
         return random.choice(fichero.split())
 
-res = generado("palabras.txt")
+res = generado("/Users/rober/Desktop/Carpeta Compartida Ubuntu/Ejercicios Python/Boletín 4/palabras.txt")
 print(res)

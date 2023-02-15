@@ -10,5 +10,5 @@ def palabrasConLetra(fichero, letra):
                 print(palabra)
     f.close()
 
-res = palabrasConLetra("palabras.txt", "a")
+res = palabrasConLetra("/Users/rober/Desktop/Carpeta Compartida Ubuntu/Ejercicios Python/Boletín 4/palabras.txt", "a")
 

@@ -11,6 +11,6 @@ def maximo(fichero):
     #El strip es para quitar el salto de linea (buscado en internet)
     return palabra.strip(), maximo-1
 
-fichero = open('palabras.txt', 'r')
+fichero = open("/Users/rober/Desktop/Carpeta Compartida Ubuntu/Ejercicios Python/Boletín 4/palabras.txt")
 palabra = maximo(fichero)
 print(palabra)

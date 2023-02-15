@@ -10,4 +10,4 @@ def palabrasConLetra(fichero):
     f.close()
     return contador
 
-print(palabrasConLetra("palabras.txt"))
+print(palabrasConLetra("/Users/rober/Desktop/Carpeta Compartida Ubuntu/Ejercicios Python/Boletín 4/palabras.txt"))

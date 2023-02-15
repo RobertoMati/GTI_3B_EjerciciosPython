@@ -4,7 +4,7 @@ import string
 #string.ascii_letters
 
 def codificado(fichero):
-    with open(fichero, "r") as f:
+    with open("/Users/rober/Desktop/Carpeta Compartida Ubuntu/Ejercicios Python/Boletín 4/"+fichero, "r") as f:
         for linea in f:
             for letra in linea:
                 if letra in string.ascii_lowercase:
