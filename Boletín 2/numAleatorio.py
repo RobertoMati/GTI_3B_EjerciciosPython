@@ -8,9 +8,9 @@ import random
 def numAleatorio():
     print("Juego de adivinar el número")
     print("**************************")
-    print("Introduce un número entero entre 1 y 10")
+    print("Introduce un número entero entre 1 y 100")
     num = int(input("Introduce un número: "))
-    numAleatorio = random.randint(1, 10)
+    numAleatorio = random.randint(1, 100)
     intentos = 0
     while num != numAleatorio:
         if num % numAleatorio == 0:
